@@ -82,25 +82,36 @@
     </section>
     <section id="contacto" class="section-cont">
       <div class="contacto">
-        <h2>Contacto</h2>
-        <form action="">
-          <label>
-            Nombre y Apellido:
-            <input type="text" required placeholder="Ingrese su nombre">
-          </label>
-          <label>
-            Email:
-            <input type="email" required placeholder="Ingrese su mail">
-          </label>
-          <label>
-            Dejame tu mensaje:
-            <input type="text">
-          </label>
+        <h2>// CONTACTO //</h2>
+
+        <form class="formulario-contacto">
+          <label for="nombre">Nombre y Apellido</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+
+
+
+          <label for="mensaje">Mensaje</label>
+          <input type="text" name="mensaje" placeholder="Deja tu Propuesta...">
+
+
+          <button type="submit">Enviar</button>
         </form>
 
-
+        <div class="redes-sociales">
+          <a href="https://instagram.com" target="_blank">
+            <img src="/assets/images/Instagram.png" alt="Instagram">
+          </a>
+          <a href="https://linkedin.com" target="_blank">
+            <img src="/assets/images/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="/assets/images/twiterx.jpeg" alt="Twitter">
+          </a>
+        </div>
       </div>
-
     </section>
   </main>
 

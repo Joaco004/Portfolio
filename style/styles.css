@@ -188,6 +188,59 @@ section {
   }
 }
 
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.formulario-contacto label {
+  font-weight: bold;
+  color: #04154d;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.formulario-contacto button {
+  background-color: #fcbf13;
+  color: #04154d;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-contacto button:hover {
+  background-color: #e0aa0f;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.redes-sociales img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+}
+
+.redes-sociales img:hover {
+  transform: scale(1.1);
+}
+
 
 
 footer {
